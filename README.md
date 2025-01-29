@@ -36,7 +36,7 @@ The repository contains learning materials, example codes, and practical exercis
 
 ## 📺 YouTube Playlist
 
-🎥 Watch the full course here: (https://youtube.com/playlist?list=PLkCIWFzrCMBkAxjK6Ngtg96gT1UHLLPKd&si=mCYfrFwdd2YvEblP)
+🎥 [Watch the full course here](https://youtube.com/playlist?list=PLkCIWFzrCMBkAxjK6Ngtg96gT1UHLLPKd&si=mCYfrFwdd2YvEblP)
 
 ---
 
