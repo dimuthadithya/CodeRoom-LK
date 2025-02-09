@@ -1,0 +1,49 @@
+/* .up-navigation{
+    background-color: aqua;
+
+}
+
+.down-navigation{
+    background-color: blueviolet;
+}
+ */
+
+section{
+border-width: 1px;
+border-color: red;
+border-style:dotted;
+display: none;
+}
+
+div{
+   /* box-sizing: border-box; */
+    background-color: black;
+    width: 50px;
+    height: 60px;
+
+    /* padding-top: 10px;
+    padding-left: 10px; */
+    padding:10px 50px 0px  10px ;
+
+    /* margin-top: 10px;
+    margin-left: 10px; */
+    margin:0px 0px 50px 0px ;
+
+    /* border-width: 2px;
+    border-color: red;
+    border-style: solid; */
+    border: 2px solid #886817;
+
+
+}
+
+.btn-1{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 4px;
+   /* margin-right: 600px; */
+   /* margin-top: 90px;
+   margin-left: 200px; */
+   /* margin-bottom: 50px; */
+}
