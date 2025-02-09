@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1{
+    border: 2px solid red;
+    position: relative;
+    top: 200px;
+    left: 100px;
+    right: 200px;
+} */
+
+/* .contianer{
+    border: 2px solid red;
+    height: 200px;
+    position: relative;
+}
+
+.box-1{
+  background-color: blue;
+  position: relative;
+  top: 400px;
+    height: 100px;
+    width: 100px;
+  position: absolute;
+left: 0;
+bottom: 0;
+
+
+} */
+
+.container{
+    border: 2px solid red;
+    width: 100px;
+}
+
+.box-1{
+    background-color:blue;
+    height: 50px;
+    width: 50px;
+    /* position: absolute; */
+    position: fixed;
+    right: 0;
+}

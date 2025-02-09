@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* block level elements  */
+/* div
+h1-h6
+p */
+
+/* Inline elemets  */
+/* a , span  */
+
+/* h1{
+    text-align: start;
+}
+
+
+h1,h2,h3,p,span,div,a{
+    border: 2px solid red;
+}
+
+
+span{
+    width: 100%;
+}
+
+a{
+ border: 2px solid blue;
+ display: inline-block;
+ width: 100px;
+ height: 200px;
+ text-align: center;
+} */
+
+/* .p-1{
+    border: 2px solid brown;
+
+}
+
+.p-2{
+    border: 2px solid blue;
+} */
+
+/* .blue-text{
+    color: blue;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+} */
+
+.p-1{
+    border: 2px solid red;
+    width: 40%;
+    float: left;
+}
+
+.p-2{
+    clear: both;
+}
+
+span{
+    border: 2px solid red;
+    float: left;
+}
