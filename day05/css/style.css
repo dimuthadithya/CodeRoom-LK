@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* h1{
+    text-align: center;
+}
+
+.main-box{
+    border: 2px solid red;
+    display: flex;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+align-items:end;
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin: 10px;
+color: white;
+} */
+
+
+/* a{
+    color: red;
+} */
+
+/* h1>p>a{
+    color: red;
+}
+
+nav>ol>li>a{
+    color: rgb(0, 255, 30);
+} */
+
+/* .navigation > ol > li >a{
+    color :red;
+} */
+
+.navigation a{
+    color: blueviolet;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
