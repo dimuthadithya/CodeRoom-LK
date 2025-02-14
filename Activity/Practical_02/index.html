@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+  </head>
+  <style>
+    .container {
+      display: flex; /* Enables Flexbox */
+      background: lightgray;
+    }
+    .box {
+      width: 50px;
+      height: 50px;
+      background: tomato;
+      margin: 5px;
+      text-align: center;
+      line-height: 50px;
+      font-weight: bold;
+    }
+
+    .flex-column {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .space-between {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .align-center {
+      display: flex;
+      /* height: 200px; */
+      align-items: center;
+    }
+
+    .flex-wrap {
+      flex-wrap: wrap;
+      /* height: auto; */
+      min-height: 200px;
+    }
+
+    .navigation > ul {
+      display: flex;
+      list-style: none;
+      justify-content: space-around;
+      border: 2px solid black;
+      padding: 20px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  </style>
+  <body>
+    <div>
+      <h1>Activity 01</h1>
+      <div class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </div>
+    <div>
+      <h1>Activity 02</h1>
+      <div class="container flex-column">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </div>
+    <div>
+      <h1>Activity 03</h1>
+      <div class="container space-between">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </div>
+    <div>
+      <h1>Activity 04</h1>
+      <div class="container align-center">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+      </div>
+    </div>
+    <div>
+      <h1>Activity 05</h1>
+      <div class="container align-center flex-wrap">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+        <div class="box">7</div>
+        <div class="box">8</div>
+        <div class="box">9</div>
+        <div class="box">10</div>
+        <div class="box">11</div>
+        <div class="box">12</div>
+        <div class="box">13</div>
+        <div class="box">14</div>
+      </div>
+    </div>
+    <div class="navigation">
+      <h1>Activity 06</h1>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

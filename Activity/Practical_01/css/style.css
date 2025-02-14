@@ -1,0 +1,53 @@
+   .activity-02 > .container > nav > ul > li {
+        display: inline-block;
+      }
+
+      .activity-03 .box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+      }
+
+      .activity-04 .main-box {
+        border: 2px solid red;
+        height: 200px;
+        position: relative;
+      }
+
+      .activity-04 .sub-box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .activity-05 .main-box {
+        border: 2px solid red;
+        height: 200px;
+        position: relative;
+      }
+
+      .activity-05 .sub-box {
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+
+      .activity-06 .container {
+        border: 2px solid green;
+        text-align: center;
+      }
+
+      .activity-06 h3 {
+        color: indigo;
+      }
+
+      .activity-07 .container > p {
+        /* display: inline-block; */
+        float: left;
+        border: 2px solid green;
+      }
