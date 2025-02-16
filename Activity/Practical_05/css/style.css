@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.901);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 70px;
+    letter-spacing: 10px;
+    color: #ff3ea5;
+ text-shadow: 4px 4px 22px rgba(144,0,77,0.75);
+}
+
+section{
+    border-radius: 10px;
+
+}
+
+.container{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 50px;
+    box-shadow: #60eef3 0px 0px 10px 0px;
+}
+
+.one{
+    background-color:#90004D;
+    border: 5px solid #fa98cd;
+}
+
+.two{
+    background-color:#BDB500;
+        border: 5px solid #fff761;
+}
+.three{
+    background-color:#90004D;
+        border: 5px solid #fa98cd;
+}
+
+.four{
+    background-color:#DAF7A6;
+}
+
+.five{
+background-color: #FFC300;
+}
+
+.flex-container{
+    display: flex;
+    gap: 20px;
+}
+
+.first > section{
+    height: 20vh;
+}
+
+.first > section:nth-child(1){
+ width: 70%;
+}
+.first > section:nth-child(2){
+ width: 30%;
+}
+
+.second > section{
+    height: 40vh;
+    width: 30%;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.third > section{
+ height: 50%;
+}
+
+.four ,.five{
+    flex-grow: 1;
+    background-color: #005053;
+    border: 5px solid #60eef3;
+
+}

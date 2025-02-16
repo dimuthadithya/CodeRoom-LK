@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.901);
+    color: #09003d7a;
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    padding: 20px;
+}
+
+section{
+border: 2px solid rgba(255, 255, 255, 0.395);
+padding: 20px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.group-01{
+flex-grow: 1;
+}
+
+.group-01 > div:nth-child(1){
+    width: 40%;
+}
+
+.group-01 > div:nth-child(2){
+    width: 60%;
+}
+
+.column{
+flex-direction: column;
+}
+
+.header{
+    height: 15vh;
+    background-color: #5FD3EC;
+}
+
+.hero{
+    height: 10vh;
+    background-color: #DACBE5;
+}
+
+.main-content{
+    height: 30vh;
+    background-color: #F6C939;
+}
+
+.extra-content{
+flex-grow: 1;
+background-color: #8D8D8D;
+}
+
+.side-bar{
+   flex-grow: 1;
+   background-color: #A3C469;
+}
+
+.related-images{
+    width: 70%;
+    height: 20vh;
+    background-color: #33B97A;
+}
+
+.related-posts{
+    width: 30%;
+    background-color: #F5CCDF;
+}
+
+.footer{
+    height: 20vh;
+    background-color: #FEA809;
+}
