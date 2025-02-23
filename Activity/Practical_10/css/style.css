@@ -1,0 +1,231 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: inherit;
+}
+
+.container{
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #1D3D48;
+    color: #fff;
+    padding: 20px;
+    height: 700px;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.gap{
+    gap: 20px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.border-rd{
+    border:2px solid red;
+}
+
+.dive{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-weight: 800;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+
+
+.hiring{
+    display: flex;
+    align-items: center;
+    background-color: #09CB85;
+    border-radius: 10px;
+}
+
+.react-native{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.react-native > p{
+font-size: 40px;
+font-weight: 600;
+text-align: end;
+padding-right: 20px;
+}
+
+.react-native {
+    line-height: 40px;
+}
+
+
+.blue{
+    color:#05DAF2 ;
+}
+
+.first-row{
+    height: 70%;
+    font-size: 20px;
+}
+
+.grey{
+    color: grey;
+    font-size: 30px;
+}
+
+.last-row{
+    height: 40%;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+
+.last-column > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.working-type{
+    background-color: #09CB85;
+    border-radius: 10px;
+    padding: 0px 20px;
+}
+
+.working-type > div{
+    height: 100%;
+    padding: 10px;
+}
+
+.working-type > div> p{
+flex: 1;
+color: #000;
+}
+
+
+.working-type > div> p:nth-child(3){
+color: #fff;
+font-size: 25px;
+line-height: 27px;
+font-weight: 500;
+}
+
+.working-type > div> p:nth-child(1){
+line-height: 20px;
+}
+
+.first-column{
+    width: 30%;
+}
+
+
+.flex-grow{
+    flex-grow: 1;
+}
+
+.main-icons{
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #202D35;
+    border-radius: 10px;
+padding: 20px;
+}
+
+.icons>div{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+
+i{
+    margin: 0px 10px;
+    font-size: 30px !important;
+}
+
+.rotate{
+rotate: -90deg;
+}
+
+svg{
+fill: #03DBFE;
+    max-width: 100%;
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+    left: -50px;
+    top: 40px;
+}
+.migare p .green , .migare p .white{
+    font-weight: 800;
+    font-size: 27px;
+}
+
+.migare{
+    background-color: #202D35;
+border-radius: 10px;
+}
+
+ .green{
+  color: #09CB85;
+}
+
+.black{
+    color: #000;
+}
+
+.carees{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 800;
+}
+
+.white{
+    color: #fff;
+}
+
+.hiring > p{
+    font-size: 50px;
+    line-height:50px;
+    font-weight:600;
+    padding-left:30px ;
+}
+
+.react-icon{
+    overflow: hidden;
+    background-color: #222222;
+    border-radius: 10px;
+}
