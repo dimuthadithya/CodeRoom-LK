@@ -1,0 +1,51 @@
+Good morning everyone.
+
+let's talk about why we need load testing and why it’s so important for websites and apps.
+
+Let’s start with a simple idea:
+Imagine your app works perfectly when one person uses it…
+But what if thousands of people use it at the same time?
+Will it still work fast and smoothly? Or will it crash?
+
+That’s where load testing comes in.
+
+Let me explain 6 important reasons why we need it.
+
+✅ 1. Ensure Performance Under Pressure
+The first reason is: we want to know if our system can handle real-world traffic — like many users coming in at once.
+
+Without load testing, your app might slow down or stop working when too many people use it.
+
+So we test it before that happens.
+
+⚠ 2. Find Problems Before Users Do
+Sometimes there are hidden problems — like slow databases, memory leaks, or full servers.
+
+Load testing helps us find and fix these problems early, before real users are affected.
+
+📊 3. Improve Scalability
+Scalability means: can your system grow when more users come?
+
+With load testing, you’ll learn if you need more servers or better setup to handle more users in the future.
+
+💰 4. Save Time & Money
+Fixing problems after launch is expensive.
+But load testing helps us catch them early, so it’s cheaper and safer.
+
+🤝 5. Build Confidence
+When we know our app can handle traffic, developers and testers feel confident.
+And the company can launch the product without fear of it breaking under pressure.
+
+📄 6. Meet SLAs (Service Level Agreements)
+Many apps promise to respond quickly — like within 2 seconds.
+Load testing helps us check if we are meeting those promises.
+
+🎯 Real-World Example
+Now let’s look at an example:
+Imagine Netflix didn’t do load testing before launching a new feature.
+Then, on a Friday night, when millions of users log in — it crashes.
+
+That’s not just a technical problem. It becomes a PR disaster and a business loss.
+
+
+
